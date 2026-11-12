@@ -4,48 +4,135 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Santa's Secret Draw</title>
-  <meta name="description" content="A Secret Santa draw for one shared iPhone. Pass the phone, keep the secret.">
+  <meta name="description" content="A Secret Santa draw for one shared iPhone. Pass the phone, keep the secret. No accounts, no tracking.">
+  <meta property="og:title" content="Santa's Secret Draw">
+  <meta property="og:description" content="A Secret Santa draw for one shared iPhone. Pass the phone, keep the secret.">
+  <meta property="og:image" content="https://santa.twelvetokens.com/img/gift-box.png">
+  <meta name="theme-color" content="#0B3D2E">
   <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header>
+<body class="home">
+
+  <nav class="home-nav" aria-label="Site">
     <div class="wrap">
-      <img src="icon.png" alt="">
-      <div>
-        <p class="label">Gift exchange draw</p>
-        <h1>Santa's Secret Draw</h1>
-      </div>
-    </div>
-  </header>
-  <nav>
-    <div class="wrap">
-      <a href="./" aria-current="page">Home</a>
       <a href="privacy/">Privacy</a>
       <a href="support/">Support</a>
     </div>
   </nav>
 
-  <main>
+  <header class="hero">
+    <img class="fir" src="img/fir-branch.png" alt="">
+    <span class="flake" style="left:6%; top:18%;" aria-hidden="true">&#10052;</span>
+    <span class="flake" style="left:44%; top:10%; font-size:22px;" aria-hidden="true">&#10052;</span>
+    <span class="flake" style="left:52%; bottom:22%; font-size:30px;" aria-hidden="true">&#10052;</span>
+
     <div class="wrap">
-      <p>A Secret Santa draw for one shared iPhone. Pass the phone around the room: each person taps their name, presses Draw, and sees who they picked, as a name or a short card code. Nobody ever picks themselves, and the rules you set are always respected.</p>
-
-      <div class="card">
-        <ul>
-          <li>Save groups for family, friends, teams and the office.</li>
-          <li>Set rules for who cannot pick whom, one way or both ways.</li>
-          <li>Show each pick as a name, or as a card code that matches a labeled envelope.</li>
-          <li>Organizer settings are protected by a PIN.</li>
-          <li>Works offline. No account, no ads, no tracking.</li>
-        </ul>
+      <div>
+        <p class="label">Santa's Secret Draw</p>
+        <img class="wordmark" src="img/wordmark-cream.png" alt="">
+        <h1>Santa's Secret Draw</h1>
+        <p class="tagline">Pass the phone. Keep the secret.</p>
+        <p class="lede">The Secret Santa draw for one shared iPhone. Everyone taps their name, draws, and sees who they picked, right there in the room. Nobody picks themselves, and your rules always hold.</p>
+        <span class="pill">Coming soon <small>to the App Store</small></span>
       </div>
-
-      <p class="muted">Everything you enter stays on your iPhone. See the <a href="privacy/">privacy policy</a>.</p>
+      <img class="gift" src="img/gift-box.png" alt="A wrapped gift with a red bow and a blank gift tag">
     </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <p class="intro">Set it up once, then let the phone do the rest.</p>
+        <div class="steps">
+          <div class="step">
+            <span class="num">1</span>
+            <h3>Add your people</h3>
+            <p>Make a group for the family, the team or the office. Add card codes if you are using labeled envelopes.</p>
+          </div>
+          <div class="step">
+            <span class="num">2</span>
+            <h3>Set the rules</h3>
+            <p>Keep partners, siblings or last year's pairs apart, one way or both ways. Then start the draw.</p>
+          </div>
+          <div class="step">
+            <span class="num">3</span>
+            <h3>Pass the phone</h3>
+            <p>Each person taps their name, presses Draw, and sees their pick. Names lock as people draw.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>A little holiday magic</h2>
+        <p class="intro">Every pick is revealed on a gift tag, one person at a time.</p>
+        <div class="phones">
+          <figure class="phone">
+            <img src="img/01-your-groups.jpg" alt="Your groups screen listing Family, Office and Book club" loading="lazy" width="506" height="1100">
+            <figcaption>Save every group</figcaption>
+          </figure>
+          <figure class="phone">
+            <img src="img/03-tap-your-name.jpg" alt="Tap your name screen with drawn names checked off" loading="lazy" width="506" height="1100">
+            <figcaption>Tap your name</figcaption>
+          </figure>
+          <figure class="phone">
+            <img src="img/04-ready-to-draw.jpg" alt="Ready to draw screen with a gift box and a red Draw button" loading="lazy" width="506" height="1100">
+            <figcaption>Ready to draw</figcaption>
+          </figure>
+          <figure class="phone">
+            <img src="img/05-you-picked.jpg" alt="You picked screen showing card code H85 on a gift tag" loading="lazy" width="506" height="1100">
+            <figcaption>See your pick</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Made for the room</h2>
+        <p class="intro">Everything an organizer needs, and nothing they don't.</p>
+        <div class="features">
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#B21E1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="8" width="18" height="13" rx="1.5"/><path d="M3 12h18M12 8v13M12 8c-2-4-6-4-6-1.5S10 8 12 8zm0 0c2-4 6-4 6-1.5S14 8 12 8z"/></svg>
+            <div><h3>Fair every time</h3><p>Every pick is decided at once, so the last person is never stuck with themselves.</p></div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#B21E1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 5l6 6M21 5l-6 6"/></svg>
+            <div><h3>Who can't pick whom</h3><p>Exclusion rules one way or both ways. The app tells you if a draw is impossible.</p></div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#B21E1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h11l5 5-5 5H4z"/><circle cx="8" cy="12" r="1.3"/></svg>
+            <div><h3>Names or card codes</h3><p>Show each pick as a name, or as a code like H85 that matches a labeled envelope.</p></div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#B21E1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+            <div><h3>Organizer PIN</h3><p>Settings and the full list stay behind a PIN, away from curious guests.</p></div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#B21E1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/></svg>
+            <div><h3>Easy redraws</h3><p>Reset a draw and the next one avoids repeating the same pairs when it can.</p></div>
+          </div>
+          <div class="feature">
+            <svg class="icon" viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="#B21E1E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M3 7l18 10M21 7L3 17"/></svg>
+            <div><h3>Works offline</h3><p>No sign-up, no internet needed. Perfect for a living room, a locker room or a party.</p></div>
+          </div>
+        </div>
+
+        <div class="promise">
+          <h2>Your secrets stay secret</h2>
+          <p>No accounts, no ads, no tracking. Everything you enter stays on your iPhone. Read the <a href="privacy/">privacy policy</a>.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
+  <div class="foliage-footer" aria-hidden="true"><img src="img/foliage.png" alt=""></div>
   <footer>
-    <div class="wrap">&copy; 2026 TwelveTokens</div>
+    <div class="wrap">&copy; 2026 TwelveTokens · <a href="privacy/">Privacy</a> · <a href="support/">Support</a> · <a href="mailto:support@twelvetokens.com">support@twelvetokens.com</a></div>
   </footer>
 </body>
 </html>
